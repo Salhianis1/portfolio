@@ -1,5 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
+import DownloadCVButton from "../Components/DownloadCVButton";
+
 import { personalDetails, workDetails, eduDetails } from "../Details";
 
 function About() {
@@ -10,6 +12,11 @@ function About() {
           About Me
         </h1>
         <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
+
+        {/* ✅ Add the Download Button here */}
+        <DownloadCVButton />
+
+
       </section>
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
