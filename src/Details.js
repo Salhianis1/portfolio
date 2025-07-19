@@ -116,24 +116,14 @@ import bs from "./assets/techstack/beautiful-soup.png";
 
 
 // Project Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/Sentiment Analysis.png";
+import projectImage2 from "./assets/projects/chatbot.png";
+import projectImage3 from "./assets/projects/wanderlust.png";
 
 // Enter your Certification Details here
 import cert1 from "./assets/certifications/cert1.png";
 // import cert2 from "./assets/certifications/cert2.png";
-// import cert3 from "./assets/certifications/cert3.png";
-// import cert4 from "./assets/certifications/cert4.png";
-// import cert5 from "./assets/certifications/cert5.png";
-// import cert6 from "./assets/certifications/cert6.png";
-// import cert7 from "./assets/certifications/cert7.png";
-// import cert8 from "./assets/certifications/cert8.png";
-// import cert9 from "./assets/certifications/cert9.png";
-// import cert10 from "./assets/certifications/cert10.png";
+
 
 // Logos
 export const logos = {
@@ -328,59 +318,28 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
+    title: "Implementation of a CI/CD Pipeline for a MERN Stack Blog Application",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: ``,
+    techstack: `MERN Stack, Git, GitHub, SonarQube, Vault, Trivy, Docker, Jenkins, Kubernetes, Prometheus, Grafana`,
+    githubLink: "https://github.com/Salhianis1/Wanderlust-Project",
+  },
+  {
+    title: "Web Application for Sentiment Analysis",
+    image: projectImage1,
+    description: ``,
+    techstack: `Python, HTML, CSS, Flask, NLTK, NumPy, SonarQube, GitLab CI/CD Pipeline, Docker, Kubernetes, Prometheus, Grafana`,
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "ChatBot",
+    image: projectImage2,
+    description: ``,
+    techstack: `Python, Flask, NumPy, NLTK, TensorFlow, Keras, Docker`,
     githubLink: "https://github.com",
   },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+
+
 ];
 
 
@@ -393,78 +352,7 @@ export const certDetails = [
     previewLink: "",
     githubLink: "",
   },
-  // {
-  //   title: "Introduction to DevOps",
-  //   image: cert2,
-  //   description: "Course Completion Certificate - Great Learning Academy - November 2024",
-  //   techstack: "DevOps Basics, Agile, CI/CD",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "AWS Cloud Practitioner Essentials",
-  //   image: cert3,
-  //   description: "Course Completion Certificate - AWS - November 22, 2024",
-  //   techstack: "AWS Core Services, Cloud Concepts",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Amazon Elastic Container Service (AWS ECS)",
-  //   image: cert4,
-  //   description: "Course Completion Certificate - KodeKloud - December 01, 2024",
-  //   techstack: "ECS, Fargate, IAM, Task Definitions",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "AWS CI/CD Pipeline Tutorial",
-  //   image: cert5,
-  //   description: "Course Completion Certificate - Great Learning Academy - November 2024",
-  //   techstack: "CodePipeline, CodeBuild, CodeDeploy",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Learning Linux Basics Course & Labs",
-  //   image: cert6,
-  //   description: "Course Completion Certificate - KodeKloud - September 19, 2024",
-  //   techstack: "Linux CLI, Bash, Permissions, Processes",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Kubernetes Certified Application Developer (CKAD) with Tests",
-  //   image: cert7,
-  //   description: "Course Completion Certificate",
-  //   techstack: "Kubernetes, Pods, Deployments, Services",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Introduction to Natural Language Processing",
-  //   image: cert8,
-  //   description: "Course Completion Certificate - Great Learning Academy - November 2024",
-  //   techstack: "NLP, Text Processing, Tokenization",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Sentiment Analysis using Python",
-  //   image: cert9,
-  //   description: "Course Completion Certificate",
-  //   techstack: "Python, VADER, TextBlob, Pandas",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
-  // {
-  //   title: "Introduction to Big Data and Hadoop",
-  //   image: cert10,
-  //   description: "Course Completion Certificate - Great Learning Academy - November 2024",
-  //   techstack: "HDFS, MapReduce, Hive, Big Data Concepts",
-  //   previewLink: "",
-  //   githubLink: "",
-  // },
+
 ];
 
 
