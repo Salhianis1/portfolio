@@ -318,7 +318,7 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Implementation of a CI/CD Pipeline for a MERN Stack Blog Application",
+    title: "Deploying a MERN Stack Blog on Kubernetes with CI/CD Automation",
     image: projectImage3,
     description: ``,
     techstack: `MERN Stack, Git, GitHub, SonarQube, Vault, Trivy, Docker, Jenkins, Kubernetes, Prometheus, Grafana`,
