@@ -80,6 +80,20 @@ function Technologies() {
   </div>
 </section>
 
+{/* Operating Systems */}
+<section>
+  <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold pt-10 text-dark-heading dark:text-light-heading">
+    Operating Systems
+  </h1>
+  <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6 pt-6">
+    <img src={ubuntu} title="Ubuntu" alt="Ubuntu" className="w-20 mx-auto" loading="lazy" />
+    <img src={debian} title="Debian" alt="Debian" className="w-20 mx-auto" loading="lazy" />
+    <img src={kali} title="Kali Linux" alt="Kali Linux" className="w-20 mx-auto" loading="lazy" />
+    <img src={parrot} title="Parrot OS" alt="Parrot OS" className="w-20 mx-auto" loading="lazy" />
+  </div>
+</section>
+
+
 {/* Frameworks */}
 <section>
   <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold pt-10 text-dark-heading dark:text-light-heading">Frameworks (Web)</h1>
@@ -122,6 +136,14 @@ function Technologies() {
   </div>
 </section>
 
+{/* GitOps */}
+<section>
+  <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold pt-10 text-dark-heading dark:text-light-heading">GitOps</h1>
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-6">
+    <img src={argocd} title="Argo CD" alt="Argo CD" className="w-20 mx-auto" />
+  </div>
+</section>
+
 {/* DevSecOps */}
 <section>
   <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold pt-10 text-dark-heading dark:text-light-heading">DevSecOps</h1>
@@ -158,6 +180,17 @@ function Technologies() {
     <img src={sklearn} title="Scikit-learn" alt="Scikit-learn" className="w-20 mx-auto" />
   </div>
 </section>
+
+
+{/* Big Data */}
+<section>
+  <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold pt-10 text-dark-heading dark:text-light-heading">Big Data</h1>
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-6">
+    <img src={hadoop} title="Apache Hadoop" alt="Apache Hadoop" className="w-20 mx-auto" />
+    <img src={spark} title="Apache Spark" alt="Apache Spark" className="w-20 mx-auto" />
+  </div>
+</section>
+
 
 {/* Libraries */}
 <section>

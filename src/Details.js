@@ -99,9 +99,9 @@ import hadoop from "./assets/techstack/hadoop.png";
 import spark from "./assets/techstack/spark.png";
 
 // Machine Learning
-// import nlp from "./assets/techstack/nlp.png";
-// import llm from "./assets/techstack/llm.png";
-// import nltk from "./assets/techstack/nltk.png";
+import nlp from "./assets/techstack/nlp.png";
+import llm from "./assets/techstack/llm.png";
+import nltk from "./assets/techstack/nltk.png";
 import textblob from "./assets/techstack/textblob.webp";
 import tensorflow from "./assets/techstack/tensorflow.png";
 import sklearn from "./assets/techstack/sklearn.png";
@@ -290,9 +290,9 @@ export const techStackDetails = {
   spark,
 
   // Machine Learning
-  // nlp,
-  // llm,
-  // nltk,
+  nlp,
+  llm,
+  nltk,
   textblob,
   tensorflow,
   sklearn,
