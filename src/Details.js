@@ -12,9 +12,6 @@ import bootstrap from "./assets/techstack/bootstrap.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
 
-
-
-
 // Programming Languages
 import python from "./assets/techstack/python.png";
 import java from "./assets/techstack/java.png";
@@ -111,9 +108,8 @@ import pandas from "./assets/techstack/pandas.png";
 import numpy from "./assets/techstack/numpy.png";
 import matplotlib from "./assets/techstack/matplotlib.png";
 import seaborn from "./assets/techstack/seaborn.png";
-import bs from "./assets/techstack/beautiful-soup.png"; 
-// import htmlparser from "./assets/techstack/htmlparser.png"; 
-
+import bs from "./assets/techstack/beautiful-soup.png";
+// import htmlparser from "./assets/techstack/htmlparser.png";
 
 // Project Images
 import projectImage1 from "./assets/projects/Sentiment Analysis.png";
@@ -123,7 +119,6 @@ import projectImage3 from "./assets/projects/wanderlust.png";
 // Enter your Certification Details here
 import cert1 from "./assets/certifications/cert1.png";
 // import cert2 from "./assets/certifications/cert2.png";
-
 
 // Logos
 export const logos = {
@@ -161,7 +156,7 @@ export const workDetails = [
     Company: `THYMSYS Company`,
     Location: "Ariana, Tunisia",
     Type: "Internship",
-    Duration: "May 2025 – Present",
+    Duration: "May 2025 – June 2025",
   },
   {
     Position: "Data Analyst",
@@ -314,7 +309,6 @@ export const techStackDetails = {
   figma,
 };
 
-
 // Enter your Project Details here
 export const projectDetails = [
   {
@@ -338,23 +332,19 @@ export const projectDetails = [
     techstack: `Python, Flask, NumPy, NLTK, TensorFlow, Keras, Docker`,
     githubLink: "https://github.com",
   },
-
-
 ];
-
 
 export const certDetails = [
   {
     title: "DevOps Engineer",
     image: cert1,
-    description: "Training Certification - Proservices Training Company - May 2025",
+    description:
+      "Training Certification - Proservices Training Company - May 2025",
     techstack: "CI/CD, Docker, Kubernetes, Linux",
     previewLink: "",
     githubLink: "",
   },
-
 ];
-
 
 // Enter your Contact Details here
 export const contactDetails = {
